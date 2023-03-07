@@ -1,0 +1,192 @@
+.navbar-container {
+  min-height: 100vh;
+}
+.navbar-navbar {
+  width: 1366px;
+  height: auto;
+  display: flex;
+  padding: 17px 187px 18px 187px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: center;
+  background-color: rgba(189, 55, 103, 1);
+}
+.navbar-frame7 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 276px;
+}
+.navbar-text {
+  color: var(--dl-color-default-white);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navbar-text02 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navbar-text04 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navbar-text06 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navbar-text08 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navbar-text10 {
+  color: var(--dl-color-default-white);
+  height: auto;
+  font-size: 18px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navbar-group180 {
+  width: 223px;
+  height: 45px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.navbar-group175 {
+  top: 12px;
+  left: 0px;
+  width: 20.00018882751465px;
+  height: 20.00018882751465px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.navbar-vector {
+  top: 0px;
+  left: 0px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.navbar-vector1 {
+  top: 15.166829109191895px;
+  left: 15.166829109191895px;
+  width: 5px;
+  height: 5px;
+  position: absolute;
+}
+.navbar-button {
+  top: 0px;
+  left: 50px;
+  display: flex;
+  padding: 13px 35px;
+  position: absolute;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 50px;
+  background-color: var(--dl-color-default-accent);
+}
+.navbar-text12 {
+  color: var(--dl-color-default-primary);
+  height: auto;
+  font-size: 16px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: left;
+  font-family: Work Sans;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
