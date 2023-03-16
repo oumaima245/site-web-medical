@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>body</title>
+    <meta property="og:title" content="exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <script src="{{ asset('js/app.js') }}" defer></script>
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet" >
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Yeseva+One:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="{{ asset('css/style2.css') }}" />
+  </head>
+  <body>
+    
+    <div>
+      <link href="{{ asset('css/home2.css') }}"  rel="stylesheet" />
+      <div class="home-container">
+        <div class="home-appointment">
+      {{-- <div class="home-navbar" style="top:auto;"> --}}
+        <header data-role="Header" class="home-navbar" style="top:0;">
+        <link href="{{ asset('css/navbar.css') }}" rel="stylesheet" />
+        <div class="logo">
+          <img
+            src="{{ asset('images/logo2.png') }}"
+             style="margin: 5px 40px 0 -120px;width: 180px;height: 50px;"
+          />
+        </div>
+        <div class="home-frame7" style="    margin-left: 90px;margin-right: 100px;">
+          <span class="navbar-text02"><span><a href="#">Home</a></span></span>
+          <span class="navbar-text02"><span><a href="#">About us</a></span></span>
+          <span class="navbar-text04"><span><a href="#">Services</a></span></span>
+          <span class="navbar-text06"><span><a href="#">Doctors</a></span></span>
+          <span class="navbar-text08"><span><a href="#">News</a></span></span>
+          <span class="navbar-text10"><span><a href="#">Contact</a></span></span>
+        </div>
+        <div class="home-group180" style="    margin-left: -20px;    margin-right: 0px;
+
+        ">
+          <div class="home-group175">
+            <a href="#"><img
+              src="{{ asset('images/public/playground_assets/vectori136-8fu.svg') }}"
+              alt="VectorI136"
+              class="home-vector19"
+            />
+            <img
+              src="{{ asset('images/public/playground_assets/vectori136-vxc.svg') }}"
+              alt="VectorI136"
+              class="home-vector20"
+            /></a>
+          </div>
+          <button class="home-button">
+            <span class="home-text135"><span><a href="#">Appointment</a></span></span>
+          </button>
+        </div>
+        </header>
+      {{-- </div> --}}
+      
+            {{-- <div class="home-sub-head">
+                <img style="top:-74.6px;"
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1b69c4f5-4a1c-4737-b1d0-aa4c2bf683bd/5dd58642-b7cf-445a-aa0e-903a5142eeb5?org_if_sml=1326749"
+                  alt="Rectangle3I135"
+                  class="home-rectangle3"
+                />
+                <img style="top:-74.6px;"
+                  src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1b69c4f5-4a1c-4737-b1d0-aa4c2bf683bd/58bbc81e-fa7b-42f3-969e-61a1057d1b56?org_if_sml=11977"
+                  alt="Rectangle4I135"
+                  class="home-rectangle4"
+                />
+                <div class="home-group203">
+                  <div class="home-frame2" style="top:-74.6px;">
+                    <img style="top:-74.6px;"
+                      src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1b69c4f5-4a1c-4737-b1d0-aa4c2bf683bd/7c0e6438-a64a-4cb0-9341-74e76ec1cc47?org_if_sml=11267"
+                      alt="Ellipse1I135"
+                      class="home-ellipse1"
+                    />
+                    <img style="top:-74.6px;"
+                      src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1b69c4f5-4a1c-4737-b1d0-aa4c2bf683bd/d7e351ba-f35c-4e23-9204-87f348034acb?org_if_sml=11226"
+                      alt="Ellipse2I135"
+                      class="home-ellipse2"
+                    />
+                  </div>
+                  <div class="home-group184">
+                    <img style="top:-74.6px;"
+                      src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1b69c4f5-4a1c-4737-b1d0-aa4c2bf683bd/7ae69411-ae04-4058-99cc-ce896f01b799?org_if_sml=1185"
+                      alt="Rectangle76I135"
+                      class="home-rectangle76"
+                    />
+                    <img style="top:-74.6px;"
+                      src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1b69c4f5-4a1c-4737-b1d0-aa4c2bf683bd/068eeb29-7d1d-40d2-9601-157d88573179?org_if_sml=1163"
+                      alt="Rectangle78I135"
+                      class="home-rectangle78"
+                    />
+                    <img style="top:-74.6px;"
+                      src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1b69c4f5-4a1c-4737-b1d0-aa4c2bf683bd/5d16016e-6c4d-4182-a5ee-db55abb631d6?org_if_sml=1164"
+                      alt="Rectangle77I135"
+                      class="home-rectangle77"
+                    />
+                  </div>
+                </div>
+                <div class="home-group108" style="top:-10px;">
+                  <span class="home-text058 Display1">
+                    <span>Book an Appointment</span>
+                  </span>
+                  <span class="home-text060 Body2">
+                    <span>Home / Appointment</span>
+                  </span>
+                </div>
+              </div> --}}
+          <footer> <div class="home-footer">
+           
+            <img
+              src="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/1b69c4f5-4a1c-4737-b1d0-aa4c2bf683bd/610b1556-af38-45a2-80bf-c7bfb50a1eac?org_if_sml=13286"
+              alt="Rectangle32I136"
+              class="home-rectangle32"
+            />
+            <div class="home-group88">
+              <div class="logo">
+                <img
+                src="{{ asset('images/logo2.png') }}"
+                   style="margin: -18px 0px 0px 0px;width: 180px;height: 50px;"
+                />
+              </div>
+              <span class="home-text090"><span></span></span>
+              <span class="home-text092 Body2">
+                <span>
+                  <span>Leading the Way in Medical</span>
+                  <br />
+                  <span>Execellence, Trusted Care.</span>
+                </span>
+              </span>
+            </div>
+            <div class="home-group841">
+              <span class="home-text097"><span>Important Links</span></span>
+              <div class="home-group86">
+                <span class="home-text099 Body"><span>Appointment</span></span>
+                <span class="home-text101 Body"><span>Doctors</span></span>
+                <span class="home-text103 Body"><span>Services</span></span>
+                <span class="home-text105 Body"><span>About Us</span></span>
+              </div>
+            </div>
+            <div class="home-group87">
+              <span class="home-text107"><span>Contact Us</span></span>
+              <div class="home-group85">
+                <span class="home-text109 Body">
+                  <span>Call: (212) 681-812-255</span>
+                </span>
+                <span class="home-text111 Body">
+                  <span>Email: amalna@gmail.com</span>
+                </span>
+                <span class="home-text113 Body">
+                  <span>Address: 0123  place</span>
+                </span>
+                <span class="home-text115 Body"><span>Maroc</span></span>
+              </div>
+            </div>
+            <div class="home-group90">
+              <span class="home-text117"><span>Newsletter</span></span>
+              <div class="home-group89">
+                <img
+                  src="{{ asset('images/public/playground_assets/vectori136-4me.svg') }}"
+                  alt="VectorI136"
+                  class="home-vector15"
+                />
+                <span class="home-text119 Body">
+                  <span><a href="#">Enter your email address</a></span>
+                </span>
+              </div>
+            </div>
+            <img
+              src="{{ asset('images/public/playground_assets/vector1i136-0qj8.svg') }}"
+              alt="Vector1I136"
+              class="home-vector1"
+            />
+            <img
+              src="{{ asset('images/public/playground_assets/vectori136-svvm.svg') }}"
+              alt="VectorI136"
+              class="home-vector16"
+            />
+            <img
+              src="{{ asset('images/public/playground_assets/vectori136-2xix.svg') }}"
+              alt="VectorI136"
+              class="home-vector17"
+            />
+            <img
+              src="{{ asset('images/public/playground_assets/vectori136-dtk.svg') }}"
+              alt="VectorI136"
+              class="home-vector18"
+            />
+            <span class="home-text121">
+              <span>
+                © 2023 AmalMA All Rights Reserved by PNTEC-LTD
+              </span>
+            </span>
+          </div>
+         </footer>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
